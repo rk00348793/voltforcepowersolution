@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VoltForce Power Solution</title>
+<meta name="description" content="Reliable power backup solutions: UPS, Inverter installation, Battery maintenance and emergency support.">
+<style>
+  body {margin:0;font-family:Arial,sans-serif;background:#f5f5f5;color:#111;}
+  header {background:#0b84ff;color:#fff;padding:20px 0;text-align:center;}
+  header h1 {margin:0;font-size:2rem;}
+  header p {margin:5px 0;font-size:1rem;}
+  nav {text-align:center;margin-top:10px;}
+  nav a {color:#fff;text-decoration:none;margin:0 15px;font-weight:600;}
+  section {padding:40px 20px;max-width:1100px;margin:auto;}
+  section h2 {color:#0b84ff;margin-bottom:15px;}
+  .services {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+  .card {background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+  .contact-info div {margin-bottom:10px;}
+  footer {text-align:center;padding:20px;background:#111;color:#fff;margin-top:20px;}
+  a.btn {display:inline-block;padding:10px 20px;margin:5px 0;border-radius:8px;text-decoration:none;color:#fff;background:#0b84ff;font-weight:600;}
+  @media(max-width:600px){.services{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>VoltForce Power Solution</h1>
+  <p>Reliable Power Backup Solutions</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We provide UPS and inverter installation, battery maintenance, and power backup solutions for homes and businesses across Bihar. Our certified technicians ensure reliable service with 24/7 support.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>UPS & Inverter Installation</h3>
+      <p>Professional installation for homes and commercial buildings.</p>
+    </div>
+    <div class="card">
+      <h3>Battery Maintenance & Replacement</h3>
+      <p>Regular maintenance, testing, and replacement of batteries.</p>
+    </div>
+    <div class="card">
+      <h3>Power Backup Solutions</h3>
+      <p>Custom solutions for residential and office power backup needs.</p>
+    </div>
+    <div class="card">
+      <h3>Emergency On-Site Support</h3>
+      <p>Rapid response for urgent power failures and service needs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <div><strong>Contact Person:</strong> Sanjeev Kumar – AVP</div>
+    <div><strong>Phone:</strong> <a href="tel:+9199738399127">9973839127</a></div>
+    <div><strong>Email:</strong> <a href="mailto:k.sanjeev@voltforcepowersolution.in">k.sanjeev@voltforcepowersolution.in</a></div>
+    <div><strong>Location:</strong> Patna, Bihar</div>
+  </div>
+  <a class="btn" href="tel:+9199738399127">Call Now</a>
+  <a class="btn" href="mailto:k.sanjeev@voltforcepowersolution.in">Email Us</a>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> VoltForce Power Solution. All Rights Reserved.
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
